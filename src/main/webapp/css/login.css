@@ -1,0 +1,57 @@
+*{box-sizing: border-box;margin: 0;padding: 0;}
+html,body{width: 100%;height: 100%;}
+body{
+  background: url(../images/login_bg.jpg) no-repeat;
+  background-position:center center;
+}
+.w-1200{
+  width: 1200px;
+  margin: 0 auto;
+}
+.logintext{
+    float: left;
+  margin-top: calc(25% - 130px);
+}
+.divlogin{
+  float: right;
+  margin-top: calc(25% - 140px);
+  padding-top: 15px;
+  width: 360px;
+  height: 352px;
+  background: url(../images/divlogin_bg.png) no-repeat;
+  text-align: center;
+}
+.divlogin p{
+  margin: 20px;
+}
+.divlogin input{
+  margin: 0px auto;
+  padding-left: 10px;
+  width: 295px;
+  height: 40px;
+  line-height: 40px;
+  color: #666;
+  font-size: 14px;
+  font-family: microsoft yahei;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 3px;
+}
+.divlogin .btn{
+  display: block;
+  margin: 10px auto;
+  padding-left: 10px;
+  width: 295px;
+  height: 40px;
+  line-height: 40px;
+  color: #844f0b;
+  font-size: 22px;
+  text-align: center;
+  font-family: microsoft yahei;
+  background: -webkit-linear-gradient(left, #d19745, #e4af34); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(right, #d19745, #e4af34); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(right, #d19745, #e4af34); /* Firefox 3.6 - 15 */
+  background: linear-gradient(to right, #d19745, #e4af34); /* 标准的语法 */
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType = 1, startColorstr = #d19745, endColorstr = #e4af34); 
+  border-radius: 3px;
+}

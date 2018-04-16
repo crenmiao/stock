@@ -1,0 +1,90 @@
+
+#pagination-items{
+	height: 50px;
+	line-height:50px;
+	font-size: 14px;
+	/* background: url("../images/notice/votetopbg.png") repeat-x; */
+	/* border-bottom: 1px solid #5CBBED; */
+}
+#pg-goto-num{
+	width: 30px;
+	height: 27px;
+	line-height: 27px/9;
+	text-align: center;
+	border: 1px solid #CCC;
+	outline-color:#4093d7;
+}
+#current_page{
+	width: 30px;
+	height: 27px;
+	line-height: 27px/9;
+	text-align: center;
+	border: 1px solid #CCC;
+	outline-color:#4093d7;
+}
+.pagebt_1{
+	background:url(../images/page.png);
+	
+	background-position: 0px -44px;
+	width: 34px;
+	height: 34px;
+	border: none;
+	text-align: center;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.pagebt_2{
+	background:url(../images/page.png);
+	background-position: 0px 0px;
+	width: 34px;
+	height: 34px;
+	border: none;
+	cursor: pointer;
+	color: #111111;
+}
+.page_down{
+	background:url(../images/page.png);
+	background-position: 0px -88px;
+	width: 64px;
+	height: 34px;
+	border: none;
+	cursor: pointer;
+	color: #111111;
+}
+.page_down:hover{
+	color: #20b771;
+}
+.page_down:active{
+	color: #20b771;
+}
+.appoint_page{
+	background:url(../images/page.png);
+	background-position: 0px -176px;
+	width: 39px;
+	height: 30px;
+	border: none;
+	color: #666666;
+	font-size: 13px;
+	cursor: pointer;
+	color: #111111;
+}
+.appoint_page:hover{
+	
+	background-position: 0px -216px;
+}
+.appoint_page:active{
+	background-position: 0px -216px;
+	
+}
+#pagination-items label{
+	vertical-align:middle;
+}
+
+
+.pagebt_2:hover{
+	color: #20b771;
+}
+.pagebt_2:active{
+	color: #20b771;
+}

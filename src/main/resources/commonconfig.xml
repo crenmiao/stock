@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+	<item id="filepath" name="文件路径" value="/home/stocklidage/python/output" desc=""/>
+	<item id="mark" name="读取结束标识" value="finished" desc=""/>
+	<item id="sendtime" name="发送邮件时间" value="15:20:00" desc=""/>
+</items>

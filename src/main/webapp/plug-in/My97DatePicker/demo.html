@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My97DatePicker示例</title>
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+	<script type="text/javascript" src="../../js/jquery.min.js"></script>
+	<script type="text/javascript" src="WdatePicker.js"></script>
+
+  </head>
+  
+  <body>
+  	<!-- 格式：2016-09-12 -->
+    <input id="d11" type="text" onClick="WdatePicker()" /> 
+	  
+	  <!-- 格式：2016-09-12 12:23:23 -->
+	  <input id="dt2" readonly="readonly" onfocus=""/>
+  
+  		<!-- 图标触发 -->
+  		<input id="d12" type="text"/>
+		<img onclick="WdatePicker({el:'d12'})" src="skin/datePicker.gif" width="16" height="22" align="absmiddle">
+		
+		<!-- 周显示 -->
+		<input type="text" class="Wdate" id="d122" />
+  </body>
+</html>
+<script>
+	$(function(){
+		$("#dt2").focus(function(){
+			WdatePicker({
+				skin:'whyGreen',
+				dateFmt:'yyyy-MM-dd HH:mm:ss',
+				minDate:'2008-03-08 11:30:00',
+				maxDate:'2100-03-10 20:59:30'
+			})
+		});
+		$("#d122").focus(function(){
+			WdatePicker({
+				isShowWeek:true,
+				onpicked:function() {
+					$dp.$('d122_1').value=$dp.cal.getP('W','W');
+					$dp.$('d122_2').value=$dp.cal.getP('W','WW');
+				}
+			});
+		});
+	});
+</script>

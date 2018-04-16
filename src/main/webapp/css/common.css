@@ -1,0 +1,481 @@
+*{margin:0;padding:0}
+html, body{
+	margin: 0 auto;
+	padding: 0px;
+	height: 100%;
+	width:100%;
+	background: #ffffff;
+	
+	font-size: 14px;
+	min-width: 1200px;
+	color: #37414d;
+}
+
+textarea{
+	border: 1px solid #ccc;resize: none;border-radius:3px;outline-color:#4093d7;padding: 10px
+}
+img{
+	vertical-align: middle;
+	border-width: 0;
+}
+
+ul li{ list-style: none;}
+.deleteText{
+	
+	color: grey;
+	cursor: pointer;
+}
+.deleteText:ACTIVE{
+	color: red;
+}
+.deleteText:HOVER{
+	color: red;
+}
+.btn{
+	background-color: #4093d7;
+	height: 30px;
+	line-height: 30px;
+	border-radius:3px;	
+	width: 60px;
+	cursor: pointer;
+	color: white;
+	text-align: center;
+	border: 0px;
+	font-size: 15px;
+	font-family:'Microsoft YaHei','寰蒋闆呴粦','Yahei','Yahei2';
+	outline-color:#ffffff!important;
+	}
+.btn:HOVER{
+	background-color: #1780d8;
+}	
+.btn:ACTIVE{
+	background-color: #1189f1;
+}
+.deleteText{
+	
+	color: grey;
+	cursor: pointer;
+}
+.deleteText:ACTIVE{
+	color: red;
+}
+.deleteText:HOVER{
+	color: red;
+}
+.deleteBtn
+{
+	background-color: #b22222;
+	height: 30px;
+	line-height: 30px;
+	border-radius:3px;	
+	
+	cursor: pointer;
+	color: white;
+	text-align: center;
+	border: 0px;
+	font-size: 14px;
+	font-family:'Microsoft YaHei','寰蒋闆呴粦','Yahei','Yahei2';
+	outline-color:#ffffff!important;
+}	
+.deleteBtn:HOVER{
+	background-color: #8b0000;
+}	
+.deleteBtn:ACTIVE{
+	background-color: red;
+}		
+	.btn1{
+	background-color: #ee3435;
+	height: 30px;
+	line-height: 30px;
+	border-radius:3px;	
+	width: 60px;
+	cursor: pointer;
+	color: white;
+	text-align: center;
+	border: 0px;
+	font-size: 15px;
+	font-family:'Microsoft YaHei','寰蒋闆呴粦','Yahei','Yahei2';
+	outline-color:#ffffff!important;
+	}
+	
+	.btn1:HOVER{
+		background-color: #cf1819;
+	}
+	.btn1:ACTIVE{
+		background-color: #ec0405;
+		
+	}
+	.btn2{
+	background-color: white;
+	color:#36424e;
+	height: 30px;
+	line-height: 30px;
+	border-radius:3px;	
+	width: 60px;
+	
+	cursor: pointer;
+	text-align: center;
+	border: 1px solid #d3d3d3;
+		font-size: 15px;
+	font-family:'Microsoft YaHei','寰蒋闆呴粦','Yahei','Yahei2';
+	}
+	
+		/*鐏拌壊*/
+	.btn3{
+	background-color: #999999;
+	height: 30px;
+	line-height: 30px;
+	border-radius:3px;	
+	width: 60px;
+	cursor: pointer;
+	color: white;
+	text-align: center;
+	border: 0px;
+	font-size: 15px;
+	font-family:'Microsoft YaHei','寰蒋闆呴粦','Yahei','Yahei2';
+	outline-color:#ffffff!important;
+	}
+		.btn3:HOVER{
+		background-color: #888888;
+	}
+	.btn3:ACTIVE{
+		background-color: #666666;
+		
+	}
+	
+	
+.btn4{
+	background-color: #ffbb00;
+	color:white;
+	height: 30px;
+	line-height: 30px;
+	border-radius:3px;	
+	width: 60px;
+	
+	cursor: pointer;
+	text-align: center;
+	border:0px;
+		font-size: 15px;
+	font-family:'Microsoft YaHei','寰蒋闆呴粦','Yahei','Yahei2';
+	}
+.btn5{
+	background-color: #62961a;
+	height: 30px;
+	line-height: 30px;
+	border-radius:3px;	
+	width: 60px;
+	cursor: pointer;
+	color: white;
+	text-align: center;
+	border: 0px;
+		font-size: 15px;
+	font-family:'Microsoft YaHei','寰蒋闆呴粦','Yahei','Yahei2';
+	}
+	
+.btn7{
+	border-radius:5px;	
+	cursor: pointer;
+	color: white;
+	text-align: center;
+	border: 0px;
+	font-size: 15px;
+	font-family:'Microsoft YaHei','寰蒋闆呴粦','Yahei','Yahei2';
+	
+	width: 180px;margin: 0 auto;height: 45px;background-color: #f97a10;
+	line-height: 16px;
+	}	
+.btn6{
+	border-radius:5px;	
+	cursor: pointer;
+	color: white;
+	text-align: center;
+	border: 0px;
+	font-size: 20px;
+	font-family:'Microsoft YaHei','寰蒋闆呴粦','Yahei','Yahei2';
+	
+	width: 180px;margin: 0 auto;height: 45px;background-color: #ee3535;
+	line-height: 45px;
+	}	
+.btn8{
+background-color: #ed3535;
+height: 30px;
+line-height: 30px;
+border-radius:3px;	
+width: 118px;
+cursor: pointer;
+color: white;
+text-align: center;
+border: 0px;
+font-size: 16px;
+font-family:'Microsoft YaHei','寰蒋闆呴粦','Yahei','Yahei2';
+}
+
+input[type="text"]
+{
+	border: 1px solid #ccc;
+	border-radius:3px;
+	outline-color:#4093d7!important;
+	padding: 0px 5px;
+}
+input[type="submit"]
+{
+	outline-color:#4093d7;
+}
+input[type="password"]
+{
+	border: 1px solid #ccc;
+	border-radius:3px;
+	outline-color:#4093d7!important;
+	padding: 0px 5px;
+}
+
+input[type="button"]
+{
+	outline-color:#4093d7;
+}
+
+.circle {
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.radio1 {
+background: url("../images/appraise4.png") no-repeat;
+width: 16px;
+height: 16px;
+float: left;
+margin-right: 10px;
+margin-top: 5px
+}
+
+.radio2 {
+background: url("../images/appraise5.png") no-repeat;
+width: 16px;
+height: 16px;
+float: left;
+margin-right: 10px;
+margin-top: 5px
+}
+
+.radio_div{
+	float: left;margin-right:60px;cursor: pointer;
+}
+
+#pagediv{
+	height: 70px;clear: both;padding-top: 30px;
+}
+
+.dengji{
+	
+	width: 15px;height: 15px;
+}
+
+
+A:link {
+ color: #999999;
+ TEXT-DECORATION: none;
+}
+A:visited {
+ COLOR: #999999;
+ TEXT-DECORATION: none;
+}
+A:hover {
+ COLOR: #999999;
+ text-decoration: underline;
+}
+A:active {
+ COLOR: #999999;  
+ text-decoration: underline;
+}
+
+.thumbnail_hetong{
+	border: 1px solid #dedede;
+	box-shadow:0 0 5px #dedede; 
+}
+.file_hetong{
+	border: 1px solid white;
+}
+
+.hetong_title{
+	height:43px;width: 120px;line-height:21px;overflow:hidden;
+	word-wrap: break-word!important;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.tip_div{
+	position: relative;
+	height: 100%;
+}
+.tip_div_span{
+	position: absolute;
+	top: 8px;
+	left: 8px;
+	color: #ccc;
+ 
+}
+
+
+.newline{
+
+銆��word-wrap:break-word;
+
+	word-break:break-all;
+
+}
+
+.exceeding{
+word-break:keep-all;/* 涓嶆崲琛�*/
+white-space:nowrap;/* 寮哄埗鍦ㄥ悓涓�鍐呮樉绀烘墍鏈夋枃鏈紝鐩村埌鏂囨湰缁撴潫鎴栬�閬亣 br 瀵硅薄銆備笉鎹㈣ */
+overflow:hidden;/* 鍐呭瓒呭嚭瀹藉害鏃堕殣钘忚秴鍑洪儴鍒嗙殑鍐呭 */
+text-overflow:ellipsis;
+}
+
+
+.blueColor
+{
+color: #1780d8!important;
+}
+
+/** 閿熸枻鎷烽敓鏂ゆ嫹閿熸枻鎷疯皨閿熸枻鎷烽敓锟�*/
+.boxtitle{
+	font-size: 15px;
+	text-indent: 10px;
+	color: white;
+	background-color:#23c47a;
+	height:36px;
+	line-height: 36px;
+	width: 100%;
+}
+
+/** 閿熸枻鎷烽敓鏂ゆ嫹閿熸枻鎷峰涔囩灮閿熻剼锟�*/
+.close{
+	position: absolute;
+	right: 2px;
+	top: 2px;
+	display: block;
+	width: 33px;
+	height: 32px;
+	background: url(../images/close.png) no-repeat;
+	text-indent: -9999px;
+	cursor: pointer;
+}
+
+.norecord{
+	display: block;
+	padding-left: 40px;
+	padding-top: 30px;
+	font-weight: bold;
+	clear: both;
+	color: red;
+}
+
+.titlediv{
+	background: url('../images/lawcase/check.png') no-repeat;
+	height:52px;
+	width:236px;
+	text-indent: 50px;
+	color: white;
+	font-size: 24px;
+	padding: 9px 0px 0px 26px;
+	margin-top: 35px;
+}
+
+.typetitlediv{
+	background: url('../images/lawcase/casetype.png') no-repeat;
+	height:110px;
+	width:167px;
+	color: white;
+	font-size: 18px;
+	padding-top:53px;
+	padding-left:30px;
+	margin-left: 20px;
+}
+.indexdiv{
+	background: url('../images/common/indexbg.png') no-repeat;
+	height: 28px;
+	width: 26px;
+	text-align: center;
+	float: left;
+	color: white;
+	font-weight: bold;
+	margin-right: 5px;
+}
+
+.redstar{
+	color: red;
+}
+.cnzz{
+	width: 50px;
+	margin-left:10px;
+	float: left;
+	}
+	
+.bottom_2{
+	width:1080px;
+	margin:0 auto;
+	padding-top:7px;
+}
+.bottom_2_1{
+font-size:15px;
+color:white;
+float:left;
+margin-left: 200px;
+}
+.seal_table{
+	background: #f6f6f6;
+	width: 100%;
+}
+.seal_table td{
+	height:30px;
+	padding-left: 20px;
+	table-layout: fixed;WORD-BREAK: break-all; WORD-WRAP: break-word
+}
+
+.table{
+border-collapse:collapse;
+text-align:center;
+width: 100%;
+color: #888888;
+font-size: 13px;
+table-layout: fixed;
+}
+.table td{
+height:45px;
+text-overflow: ellipsis; overflow: hidden; white-space: nowrap;
+
+}
+
+
+.tabletitle{
+	height: 50px;
+	font-weight: bold;
+	color: #333333;
+	font-size: 14px;
+	background-color: #f0f0f0;
+	text-align: center;
+}
+
+.tabletr{
+	color: #666666;
+	font-size: 14px;
+	cursor: pointer;
+}
+.tabletr.alt td { background:#F5F5F4;} 
+/* css 娉ㄩ噴锛氶粯璁ら殧琛岃儗鏅鑹�*/ 
+.tabletr.over td {background:#F1F1F1;} 
+/* css娉ㄩ噴锛氶紶鏍囩粡杩囨椂鍊欒儗鏅鑹�*/
+
+.tabletr td{
+	background-color: white;
+	
+}
+.tabletr a{
+	
+	color: black;
+}
+.tabletr a:HOVER{
+	
+	color: #5CBBED;
+}
