@@ -193,6 +193,24 @@ public class AdminController {
 //		}
 	}
 	
+	/**
+	 * 
+	 * @param request
+	 * @return
+	 */
+	@RequestMapping("/admin/updateTem")
+	@ResponseBody
+	public ResponseData updateTem(HttpServletRequest request,String title,String content){
+		User u = getUser(request);
+		if(u==null){
+			return new ResponseData("nologin","");
+		}
+		PropertyUtil.setProperty("sendtitle",title );
+		PropertyUtil.setProperty("sentContent",content );
+		  
+			return new ResponseData("success","");
+ 
+	}
 	
 	
 	public User getUser(HttpServletRequest request){
