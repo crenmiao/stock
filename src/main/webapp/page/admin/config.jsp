@@ -83,6 +83,29 @@
 												</td>
 											</tr>
 											
+											<tr>
+												<td>
+													Email title：
+												</td>
+												<td>
+													<input type="text" style="height:30px;width:500px;" name="title" id="title"  value="<%=PropertyUtil.getProperty("sendtitle") %>" />
+												</td>
+											</tr>
+											<tr>
+												<td>
+													Email Template(Content)：
+												</td>
+												<td>
+													<textarea style="height:300px;width:500px;" id="content"><%=PropertyUtil.getProperty("sentContent") %></textarea>
+												</td>
+											</tr>
+											<tr>
+												<td></td>
+												<td> 
+													<div onclick="updateTem();"style="width:200px;height:30px;line-height:28px;background:#4093D7;color:white;border-radius:5px;text-align:center;cursor:pointer;">Update Email Template</div>
+												</td>
+											</tr>
+											
 											
 										</table>
 										<div class="fanye">
@@ -121,5 +144,30 @@
          });
 		}
 	
+	
+	
+	function updateTem(id){
+			$.ajax({
+             type: "post",
+             url: "${ctx}/admin/updateTem",
+             data:{title:$("#title").val(),content:$("#content").val()},
+             dataType: "json",
+             success: function(data){
+                    if(data.ec=='success'){
+                    	alert("success");
+						location.reload();
+                    }else if(data.ec=='nologin'){
+                    	
+						location = "/admin";
+                    }else{
+                    	alert("failure");
+                    }
+                    
+             },
+             error:function(){
+             	alert("error");
+             }
+         });
+		}
 	</script>
 </html>
